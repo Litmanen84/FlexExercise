@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.noto-sans symbols-300 {
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.noto-sans symbols-600 {
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.noto-sans symbols-700 {
+    
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.allan-regular {
+    font-family: "Allan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D4480;
+}
+
+.card {
+    height: 465px;
+    width: 288px;
+    margin-top: 120px;    
+    background-color: white;
+    border-radius: 30px;
+    padding-inline: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 15px 15px 20px 10px rgba(0, 0, 0, 0.2)
+}
+
+h1 {
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.feat {
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.free {
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+.ok-err {
+    height: 20px;
+    width: 20px;
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid black;
+    margin-top: 20px
+}
+
+.forever {
+    font-family: "Allan", serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    transform: translateX(20%);
+    color: #2D4480;
+}
+
+.get-started-button {
+    position: absolute;
+    bottom: -30px;
+    left: calc(19%);
+    width: 181px;
+    height: 68px;
+    background-color: #FFBC0F;
+    border-radius: 40px;
+    color: #2D4480;
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 66px;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+.get-started-button:hover, h1:hover, .free:hover {
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
+}
+
+.list:hover {
+    border: 3px solid cornflowerblue
+}
